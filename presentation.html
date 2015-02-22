@@ -15,6 +15,8 @@
 		<link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme" />
 		<link rel="stylesheet" href="./reveal.js/lib/css/zenburn.css" />
 
+		<style>.reveal section img{border-width:0px;box-shadow:none;}.icon{float:right}.footer-project img{width:100%; opacity: 0.3}.footer-project img.actif{opacity: 1}.footer-project td{width:6.666%;padding: 0 5px !important;margin:auto;vertical-align:middle}</style>
+
 		<script>
 			document.write( '<link rel="stylesheet" href="./reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
@@ -25,22 +27,48 @@
 	  <div class="reveal">
 		<div class="slides">
 			<section>
-				<h1>Restaurant Management Software</h1>
-				<p>Logicielle de gestion de salle de restaurant.</p>
-				<p>
-					<small>par Julien GARDET, Corentin BEAL, Mathieu Chiapini et Colin Finas</small>
-				</p>
-			</section>
-			<section data-background="#b5533c">
-				<h2>Sommaire</h2>
-				<ol>
-					<li>1<sup>re</sup> partie</li>
-					<li>2<sup>me</sup> partie</li>
-				</ol>
+				<h1><img src="img/logo-text/wikimedia-france.svg"/></h1>
+				<p>Association pour le libre partage de la connaissance</p>
 			</section>
 			<section>
-				<h2>1<sup>re</sup> partie</h2>
-				<p>Lorem ipsum dolor sit amet consectectur.</p>
+				<h2>Wikimedia France</h2>				
+				<img style="height:200px" src="img/logo-text/wikimedia-france.svg"/>
+				<p><strong>Association française Loi 1901</strong> aidant les <strong>contributeurs bénévoles</strong> dans le <em>developpement des articles</em> ou dans la <em>promotion des projets</em> de la </strong>Wikimedia Foundation</strong>.</p>
+			</section>
+			<section>
+				<h2>Wikimedia Foundation</h2>				
+				<img style="height:200px" src="img/logo-text/wikimedia-foundation.svg"/>
+				<p><strong>Organisation</strong> qui <strong>héberge</strong> et <strong>promeux le développement</strong> des projets en ligne comme la <em>Wikipédia</em>, le <em>Wiktionnaire</em>, <em>Wikimédia Commons</em> etc ... développés grâce au logiciel <em>MediaWiki</em>.</p>
+			</section>
+			<section>
+				<h2>Les  projets de la Wikimedia Foundation</h2>
+				<img style="height:500px" src="img/family.svg"/>
+			</section>
+			<section>
+				<h2>Wikipédia</h2>
+				<img style="height:200px" src="img/logo-text/wikipedia.svg"/>
+				<p></p>
+				<div class="footer-project">
+					<table>
+						<tr>
+							<td><img class="actif" src="img/logo/wikipedia.svg"/></td>
+							<td><img src="img/logo/mediawiki-commons.svg"/></td>
+							<td><img src="img/logo/wikisource.svg"/></td>
+							<td><img src="img/logo/wikinews.svg"/></td>
+							<td><img src="img/logo/wiktionnary.svg"/></td>
+							<td><img src="img/logo/wikiversity.svg"/></td>
+							<td><img src="img/logo/wikivoyage.svg"/></td>
+							<td><img src="img/logo/wikidata.svg"/></td>
+							<td><img src="img/logo/incubator.svg"/></td>
+							<td><img src="img/logo/mediawiki.svg"/></td>
+							<td><img src="img/logo/wikispecies.svg"/></td>
+							<td><img src="img/logo/wikiquote.svg"/></td>
+							<td><img src="img/logo/wikimedia-meta.svg"/></td>
+							<td><img src="img/logo/wikibooks.svg"/></td>
+							<td><img src="img/logo/wikimania.svg"/></td>
+						</tr>
+					</table>
+				</div>
 			</section>
 		</div>
 	</div>
@@ -116,7 +144,7 @@
 			transitionSpeed: 'default', // default/fast/slow
 			
 			// Transition style for full page slide backgrounds
-			backgroundTransition: 'zoom', // none/fade/slide/convex/concave/zoom
+			backgroundTransition: 'slide', // none/fade/slide/convex/concave/zoom
 			
 			// Number of slides away from the current that are visible
 			viewDistance: 1,
@@ -125,7 +153,7 @@
 			parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
 			
 			// Parallax background size
-			parallaxBackgroundSize: '' // CSS syntax, e.g. "2100px 900px"
+			//parallaxBackgroundSize: '' // CSS syntax, e.g. "2100px 900px"
 		});
     
 		Reveal.initialize({
